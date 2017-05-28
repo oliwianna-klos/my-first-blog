@@ -122,3 +122,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'public', 'static')
 
 AUTH_USER_MODEL = 'blog.Author'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
